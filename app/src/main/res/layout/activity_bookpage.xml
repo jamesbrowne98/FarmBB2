@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ABF4B2"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="56dp"
+        android:text="Accommodation Available"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:text="All Check in’s are 2pm Saturday All Check out’s are 10am the following Sunday"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textDirection="firstStrongRtl"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/DoubleRoom"
+        android:layout_width="287dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="69dp"
+        android:background="#FDFF8A"
+        android:text="Double Room (3 Available) Bed &amp; Breakfast"
+        app:layout_constraintBottom_toTopOf="@+id/Barn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/Barn"
+        android:layout_width="287dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="70dp"
+        android:background="#FDFF8A"
+        android:text="The Barn (1 available) Self Catering Can hold upto a family of 8"
+        app:layout_constraintBottom_toTopOf="@+id/ShepherdsHut"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/ShepherdsHut"
+        android:layout_width="287dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="62dp"
+        android:background="#FDFF8A"
+        android:text="Luxury Shepherds Hut  with one double bedroom Self Catering or Catering (1 Available)"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Barn" />
+</androidx.constraintlayout.widget.ConstraintLayout>

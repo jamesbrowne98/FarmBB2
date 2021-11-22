@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FarmB&amp;B</string>
+
+    <string-array name="accommodation">
+        <item>Double Room</item>
+        <item>The Barn</item>
+        <item>The Shepherds Hut</item>
+    </string-array>
+
+</resources>
